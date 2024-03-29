@@ -1,0 +1,44 @@
+.banner {
+    background: url(../images/banner.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.head .more{
+    /*background:transparent;*/
+    background-color: transparent;
+}
+
+.ant-collapse-header{
+    color: #B5B5B5 !important;
+    /*border: none !important;*/
+    border-bottom: 1px solid #666666 !important;
+    border-radius: 0 !important;
+
+}
+
+.ant-collapse-content-box{
+    color: #B5B5B5 !important;
+    /*background: url(../images/down.png) no-repeat right calc(29 / 1920* 100vw) !important;*/
+
+}
+
+
+.connect {
+    height: calc(68 / 1920 * 100vw);
+    background: #0088CB;
+    border-radius: calc(13 / 1920 * 100vw);
+    margin-top: calc(64 / 1920 * 100vw);
+    margin-bottom: calc(38 / 1920 * 100vw);
+    /*display: block;*/
+    width: 100%;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: calc(20 / 1920 * 100vw);
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
